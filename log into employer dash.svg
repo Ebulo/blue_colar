@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="593" height="74" viewBox="0 0 593 74">
+  <defs>
+    <filter id="Rectangle_1016" x="0" y="0" width="593" height="74" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1688" data-name="Group 1688" transform="translate(-182 -250)">
+    <g transform="matrix(1, 0, 0, 1, 182, 250)" filter="url(#Rectangle_1016)">
+      <rect id="Rectangle_1016-2" data-name="Rectangle 1016" width="575" height="56" rx="8" transform="translate(9 4)" fill="#fff"/>
+    </g>
+    <text id="Log_In_to_employer_dashboard" data-name="Log In to employer dashboard" transform="translate(340 289)" fill="#1c819b" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Log In to employer dashboard</tspan></text>
+  </g>
+</svg>

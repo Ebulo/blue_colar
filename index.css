@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+.main_page {
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1000;
+}
+.main_page img {
+    width: 100%;
+}
+
+.top_btn {
+    position: absolute;
+    top: 8%;
+    right: 12%;
+    display: flex;
+    flex-direction: row;
+    width: 16vw;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    transform: scale(1.4);
+}
+.want_job {
+    width: 50%;
+}
+.contact {
+    width: 50%;
+}
+
+.activity {
+    position: absolute;
+    top: 36%;
+    left: 13%;
+    width: 30vw;
+    /* transform: scale(1.4); */
+}
+img {
+    width: 100%;
+}
+
+.get_demo {
+    position: absolute;
+    top: 30%;
+    right: 6%;
+    width: 40vw;
+    /* transform: scale(1.4); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_demo .blank_rect {
+    width: 94%;
+    height: 40vh;
+    box-shadow: 0px 0px 10px #888;
+    color: #21829c;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.get_demo .demo_btn{
+    width: 30%;
+}
+
+.get_demo .blank_rect:focus {
+    outline: 1px solid #21829c;
+    border-radius: 8px;
+}
+
+.verify_leads_new {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(1.4);
+    top: 174%;
+    width: 22vw;
+}
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background: #ecf3f4;
+    top: 1000px;
+    z-index: -1;
+}
+
+.get_kyc_verified {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(1.4);
+    top: 268%;
+    width: 22vw;
+}
+
+.hire_now {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scale(1.4);
+    top: 348%;
+    width: 22vw;
+}
+
+.query {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 374%;
+    width: 46vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.query .inp_div {
+    margin: 2%;
+    width: 100%;
+}
+
+.query .inp_div input {
+    margin-left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #8888;
+    outline: none;
+    width: 80%;
+    /* padding: 2px; */
+    background: transparent;
+    color: #21829c;
+    /* font-size: 2em; */
+    /* transition: 0.4s; */
+}
+.query .inp_div input:focus {
+    border-bottom: 4px dashed #21829c;
+    transition: 0.8s;
+}
+
+.query .inp_div label {
+    width: 20%;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #21829c;
+}
+
+.send {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 406%;
+    width: 10vw;
+}
+
+
+/* @media(max-width: 1800px) {
+    .top_btn {
+        transform: scale(1);
+    }
+    .activity {
+        transform: scale(1);
+    }
+    .get_demo {
+        transform: scale(1);
+    }
+    .verify_leads_new {
+        transform: scale(1);
+    }
+    .get_kyc_verified {
+        transform: scale(1);
+    }
+    .hire_now {
+        transform: scale(1);
+    }
+    .send {
+        transform: scale(1);
+    }
+} */

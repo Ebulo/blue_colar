@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="157" height="49" viewBox="0 0 157 49">
+  <defs>
+    <filter id="Rectangle_1015" x="0" y="0" width="157" height="49" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#707070" flood-opacity="0.545"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_94_2" data-name="Component 94 – 2" transform="translate(8.5 3.5)">
+    <g transform="matrix(1, 0, 0, 1, -8.5, -3.5)" filter="url(#Rectangle_1015)">
+      <rect id="Rectangle_1015-2" data-name="Rectangle 1015" width="140" height="32" rx="7" transform="translate(8.5 3.5)" fill="#fff" stroke="#fff" stroke-width="2" opacity="0.5"/>
+    </g>
+    <text id="Contact_Us" data-name="Contact Us" transform="translate(21 22.5)" fill="#1c819b" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Contact Us</tspan></text>
+  </g>
+</svg>
